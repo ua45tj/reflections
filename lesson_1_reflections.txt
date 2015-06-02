@@ -1,0 +1,52 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+When you view a diff between two versions you can see all changes introduced in new version.
+So if old version has no bug and new version has bug then you can definitly say that bug
+was introduced by changes to old version. By viewing diff of these two versions you can see
+what places changes were made. Revieving these changes helps to understand where bug can
+be hiding.
+
+How could having easy access to the entire history of a file make you a more efficient
+programmer in the long term?
+
+Having easy access to the entire history of a file helps because it speeds up process
+of finding cause of bug. So you can find bugs quicklier than if you weren't using
+any version control at all or if you would do it by manual comparison of two files.
+
+What do you think are the pros and cons of manually choosing when to create a commit,
+like you do in Git, vs having versions automatically saved, like Google docs does?
+
+Pros: you can commit only logical changes and prevent having work-in-progress state saves
+So you can have every single commit in buildable state and not have build time errors
+because commit was made during editing of middle of some line of code.
+Cons: you shoild not forget to do frequent commits. But by automatically saved versions
+you can do just writing code without worrying about making commits at all.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit,
+while others, like Google Docs, treat each file separately?
+
+Multi-file commit is useful feature when such commit represent single logical change.
+Sometimes you can't make finished logical change without editing multiple files.
+For example, HTML and CSS are closely coupled and if you create some class and add it to some
+html element, you want also to edit CSS file too.
+But Google Docs has no idea about your logical changes. It has idea of documents. Each doc is
+treated separately. But git treats each commits as snapshots of whole file tree under tracked
+directory.
+
+How can you use the commands git log and git diff to view the history of files?
+By using 'git log' we can see overview of recent commits. Each commit has brief
+description and own commit-id. So by using 'git diff' and specifying two of such
+commit-ids we can find which files/lines were changed between first and second
+specified commit.
+
+How might using version control make you more confident to make changes that could break something?
+
+Because you should worry less about making changes compared to scenario when you not using git.
+Bug hunting becomes a lot easier process when using version control system. Any time you can easily
+checkout any state of your application so finding bug is not big deal with git.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I would like to track changes to my code using version control system.
+Althought git can be used to track changes to any arbitary data, but plain text
+or source code data is the better choice to use git.
