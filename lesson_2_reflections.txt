@@ -27,3 +27,8 @@ organized? How would branches help?
 Branches can be used when you want to expreriment or make special branch for
 stable release, and continue active development on master, but fix bugs on
 stable branch.
+
+How do the diagrams help you visualize the branch structure?
+
+By its nature branches/commits are nodes of tree structure. Thats why it is
+easier to understand tree structure visualizing it.
