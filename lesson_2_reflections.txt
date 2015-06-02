@@ -20,3 +20,10 @@ per logical change?
 
 Add some files to staging area using 'git add'. Then use 'git diff --staged' to
 ensure that change is logical. Then make commit.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+Branches can be used when you want to expreriment or make special branch for
+stable release, and continue active development on master, but fix bugs on
+stable branch.
