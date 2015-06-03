@@ -43,3 +43,14 @@ developing thing separately after including some changes from that branch.
 Anyway we can safely delete such branch if we do not need it anymore.
 Deleting branch is just deleting fancy name of commit. That commit is still 
 reachable from current HEAD.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+
+Automatic merging can be used when changes are made on different parts of code.
+Sadly sometimes such auto merging can break app logic. Pros of malual merging:
+you can review changes based on your knowledge about problem area. Computer
+definetely would know less than you in this area. Cons of manual mergin is that
+process takes a bit more time than automatic merge.
+
+
