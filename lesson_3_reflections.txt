@@ -28,7 +28,8 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    You can cut off internet connection and hide into some bunker and code
+    for 12 weeks not-stop. Your repository would have all history of changes.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
