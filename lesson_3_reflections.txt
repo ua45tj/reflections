@@ -34,7 +34,11 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    I would use shared folders and diff-tools like meld to compare files when
+    merging. Or we could be working on same project turn by turn not working
+    together simultaneously. Merging would be harder but its easy for people
+    to understand shared folders and work in turns rather than git branches
+    and complex graph trees.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
