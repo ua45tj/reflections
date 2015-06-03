@@ -43,4 +43,11 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    There are some cases when you want to experiment to develop some tricky
+    feature but do not want to mess up production code branch with these new
+    untested feature. Sometimes you may want to mantain multiple branches.
+    For example, production stable (only bugfixes), development master (main
+    development branch), cool feature (experimental development branch).
+    When working only on master branch it is much easier to understand
+    tree structure of different commits for my opinion. Merges are a easier.
+    But having multiple branches could be very useful on large projects.
